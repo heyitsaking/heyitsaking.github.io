@@ -13,19 +13,45 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
+}
+
+body {
+  background: no-repeat center fixed url("./auburn.jpg");
+  background-size: cover;
+  z-index: -1;
+}
+
+.jumbotron {
+  min-height: 100vh;
+  background-color: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+}
+
+.sheet {
+  min-height: 100vh;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.main-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.resize {
+  min-height: 50vh;
+  width: 50%;
 }
 
 @keyframes App-logo-spin {

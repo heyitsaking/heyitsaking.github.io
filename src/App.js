@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import InfoPanel from './components/InfoPanel/InfoPanel';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends React.Component {
+  render() {
+      return (
+          <body>
+              <div class="jumbotron">
+                  <div class={`sheet bg-black o-40`}></div>
+                  <div class={`main-text`}>
+                      <header className="resize tc flex flex-column justify-center items-center">
+                          <h1 className="f-5-ns f1 ttu fw9 white-90 mv3">
+                              Arturo A. King
+                          </h1>
+                          <h2 className="f-1-ns f2 fw3 white-80 mt0 lh-copy">
+                              B.S. in Computer Engineering
+                          </h2>
+                      </header>
+                  </div>
+              </div>
+              <InfoPanel bgColor={`bg-navy`} cardTitle={`About me...`}/>
+              <InfoPanel bgColor={`bg-orange`} cardTitle={`Experience`}/>
+          </body>
+      );
+  }
+};
 
 export default App;
