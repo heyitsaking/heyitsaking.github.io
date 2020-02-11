@@ -8,20 +8,26 @@ const InfoPanel = ({bgColor, cardTitle, cardType}) => {
                 <div className="mw9 w-100 center ph3-ns flex justify-center items-center">
                     <div className="cf ph2-ns w-100 justify-between-l">
                         <div className="fl w-100 w-third-l pa2">
-                            <div className="outline bg-white pv4">
+                            <div className="white bg-white-20 pa4">
                                 <h2>
                                     About me...
                                 </h2>
                                 <p>
-
+                                    Aspiring developer with front-end experience.
                                 </p>
                             </div>
                         </div>
                         <div className="fl w-100 w-third-l pa2">
-                            <div className="outline bg-white pv4"></div>
+                            <div className="outline bg-white pv4">
+                                <img className={`w-auto h-auto`}
+                                     src={`./profile.jpg`}
+                                     alt={`Arturo A. King`}/>
+                            </div>
                         </div>
                         <div className="fl w-100 w-third-l pa2">
-                            <div className="outline bg-white pv4"></div>
+                            <div className="white bg-white-20 pa4">
+
+                            </div>
                         </div>
                     </div>
                 </div>
