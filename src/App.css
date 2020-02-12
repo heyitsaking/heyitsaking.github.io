@@ -49,6 +49,16 @@ body {
   position: relative;
 }
 
+.base {
+  z-index: 0;
+  position: static;
+}
+
+.cardiInfo {
+  z-index: 2;
+  position: fixed;
+}
+
 .resize {
   min-height: 50vh;
   width: 50%;
