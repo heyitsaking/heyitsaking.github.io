@@ -17,9 +17,11 @@ const InfoPanel = ({bgColor, cardTitle, cardType}) => {
                                 </p>
                             </div>
                         </div>
-                        <div className="fl di-ns dn w-100 w-third-ns pa2">
-                            <div className="picture outline bg-white pv4 h5">
-
+                        <div className="fl di-ns dn w-100 h-75 w-third-ns pa2">
+                            <div className="bg-transparent h-100 flex justify-center">
+                                <img src={require('./profile.jpg')}
+                                     alt={`Arturo King`}
+                                     />
                             </div>
                         </div>
                         <div className="fl w-100 w-third-ns pa2">

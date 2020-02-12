@@ -3,7 +3,6 @@
     width: 100%;
 }
 
-.picture {
-    background-image: url("./profile.jpg");
-    background-size: cover;
+img {
+    max-height: 100%;
 }
