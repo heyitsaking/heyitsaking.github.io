@@ -5,26 +5,24 @@ const InfoPanel = ({bgColor, cardTitle, cardType}) => {
     return (
         <div className={`flex justify-center info-panel ${bgColor}`}>
             {cardType === 'profile' ?
-                <div className="mw9 w-100 center ph3-ns flex justify-center items-center">
-                    <div className="cf ph2-ns w-100 justify-between-l">
-                        <div className="fl w-100 w-third-l pa2">
+                <div className="mw9 w-100 center ph3-ns">
+                    <div className="cf ph2-ns w-100 justify-between-l h-100 flex-ns items-center">
+                        <div className="fl w-100 w-third-ns pa2">
                             <div className="white bg-white-20 pa4">
-                                <h2>
+                                <h2 className={`f2`}>
                                     About me...
                                 </h2>
-                                <p>
+                                <p className={`f3`}>
                                     Aspiring developer with front-end experience.
                                 </p>
                             </div>
                         </div>
-                        <div className="fl w-100 w-third-l pa2">
-                            <div className="outline bg-white pv4">
-                                <img className={`w-auto h-auto`}
-                                     src={`./profile.jpg`}
-                                     alt={`Arturo A. King`}/>
+                        <div className="fl di-ns dn w-100 w-third-ns pa2">
+                            <div className="picture outline bg-white pv4 h5">
+
                             </div>
                         </div>
-                        <div className="fl w-100 w-third-l pa2">
+                        <div className="fl w-100 w-third-ns pa2">
                             <div className="white bg-white-20 pa4">
 
                             </div>
