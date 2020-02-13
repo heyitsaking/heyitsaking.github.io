@@ -23,6 +23,7 @@ const InfoPanel = ({bgColor, cardTitle, cardType, onLinkClick}) => {
                             <div className="bg-transparent h-100 flex justify-center">
                                 <img src={require('./profile.jpg')}
                                      alt={`Arturo King`}
+                                     className={`profile-image`}
                                      />
                             </div>
                         </div>

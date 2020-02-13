@@ -20,15 +20,17 @@ class App extends React.Component {
         return (
             <div>
                 <div className={(route === 'main') ? 'dn' : 'cardiInfo db bg-black-30 h-100 w-100 flex items-center justify-center'}>
-                    <div className={`h5 w-75 bg-white`}>
-                        <div className="mw-66 flex flex-row-reverse flex-wrap">
-                            <button className={`ma2`}>X</button>
+                    <div className={`h-50-ns h-auto w-75 bg-white overflow-hidden flex flex-column`}>
+                        <div className={`outline h2 flex flex-row-reverse`}>
+                            <button className={``}>X</button>
                         </div>
-                        <div className={`avenir mh2 flex flex-row`}>
-                            <div className={`w-two-thirds`}>This is where Cardi's info goes.</div>
+                        <div className={`outline h-inherited ma2 flex flex-auto flex-row-ns flex-column`}>
+                            <p className={`f3 w9 w-75`}>
+                                Nib info
+                            </p>
                             <img src={require('./nib.jpg')}
                                  alt={`Cardi`}
-                                 className={`w-third`}
+                                 className={`mw5-ns`}
                             />
                         </div>
                     </div>
