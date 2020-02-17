@@ -20,18 +20,25 @@ class App extends React.Component {
         return (
             <div>
                 <div className={(route === 'main') ? 'dn' : 'cardiInfo db bg-black-30 h-100 w-100 flex items-center justify-center'}>
-                    <div className={`h-50-ns h-auto w-75 bg-white overflow-hidden flex flex-column`}>
-                        <div className={`outline h2 flex flex-row-reverse`}>
-                            <button className={``}>X</button>
+                    <div className="dt center pv1-m pv1-ns bg-white mw8-l w-80">
+                        <div className={`flex flex-row-reverse pt1 pr1`}>
+                            <button>X</button>
                         </div>
-                        <div className={`outline h-inherited ma2 flex flex-auto flex-row-ns flex-column`}>
-                            <p className={`f3 w9 w-75`}>
-                                Nib info
-                            </p>
-                            <img src={require('./nib.jpg')}
-                                 alt={`Cardi`}
-                                 className={`mw5-ns`}
-                            />
+                        <div className={`pr1-ns`}>
+                            <div className="db dtc-ns v-mid-ns pl1-ns pa1">
+                                <img src={require(`./nib.jpg`)} alt="A bright blue sky"
+                                     className="w-100 mw7 w5-ns"/>
+                            </div>
+                            <div className="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
+                                <p className="lh-copy">
+                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum."
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
