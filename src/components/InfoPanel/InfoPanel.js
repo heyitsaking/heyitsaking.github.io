@@ -29,9 +29,8 @@ const InfoPanel = ({bgColor, cardTitle, cardType, onLinkClick}) => {
                         </div>
                         <div className="fl w-100 w-third-ns pa2">
                             <div className="white bg-white-20 pa4">
-                                <p className={`f3`}>
-                                    Currently residing in Jacksonville, FL, with my wife Mary Grayson and our cat,
-                                    <button onClick={onLinkClick}> Cardi</button> (a.k.a Nibbles).
+                                <p className={`f3 ws-normal`}>
+                                    Currently residing in Jacksonville, FL, with my wife Mary Grayson and our cat, <a onClick={onLinkClick} className={`underline hover-orange`}>Cardi</a> (a.k.a Nibbles).
                                 </p>
                             </div>
                         </div>

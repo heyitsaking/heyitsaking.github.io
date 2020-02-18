@@ -20,24 +20,24 @@ class App extends React.Component {
         return (
             <div>
                 <div className={(route === 'main') ? 'dn' : 'cardiInfo db bg-black-30 h-100 w-100 flex items-center justify-center'}>
-                    <div className="dt center pv1-m pv1-ns bg-white mw8-l w-80">
-                        <div className={`flex flex-row-reverse pt1 pr1`}>
-                            <button>X</button>
+                    <div className="dt center pv1-m pv1-ns ph0-ns ph2 bg-white mw8-l w-80 ba b--orange bw2">
+                        <div className={`flex flex-row-reverse pt1 pr1 h2`}>
+                            <button className={`bg-transparent f5`}>X</button>
                         </div>
                         <div className={`pr1-ns`}>
                             <div className="db dtc-ns v-mid-ns pl1-ns pa1">
                                 <img src={require(`./nib.jpg`)} alt="A bright blue sky"
                                      className="w-100 mw7 w5-ns"/>
                             </div>
-                            <div className="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
-                                <p className="lh-copy">
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                    mollit anim id est laborum."
+                            <div className="db dtc-ns v-mid ph2 pr2-ns pl1-ns">
+                                <p className="lh-copy tj navy avenir f7-m">
+                                    {`This is Cardi. We initially fostered her and her two siblings, Nicki and Chance (the
+                                    Humane Society likes naming their litters with a theme), when they were two weeks
+                                    old. Sadly, Nicki and Chance were already sick when we began fostering and passed
+                                    away :( We then decided to adopt Cardi, and while we don't really call her by that
+                                    name, we decided to keep it in memory of her siblings.`}
                                 </p>
+                                Follow her adventures on Instagram! <a href={`https://www.instagram.com/cardic_calico/?igshid=h7riz1jen7v6`}>@cardic_calico</a>
                             </div>
                         </div>
                     </div>
