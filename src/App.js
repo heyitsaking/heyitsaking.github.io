@@ -29,8 +29,7 @@ class App extends React.Component {
                 <div className={`base`}>
                     <div>
                       <div class={`jumbotron`}>
-                          <div class={`sheet bg-black-50`}></div>
-                          <div class={`main-text`}>
+                          <div class={`main-text bg-black-40`}>
                               <header class={`resize tc flex flex-column justify-center items-center`}>
                                   <h1 class={`f-5-ns f1 ttu fw9 white-90 mv3`}>
                                       Arturo A. King
