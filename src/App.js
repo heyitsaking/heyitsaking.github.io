@@ -31,10 +31,10 @@ class App extends React.Component {
                       <div class={`jumbotron`}>
                           <div class={`main-text bg-black-40`}>
                               <header class={`resize tc flex flex-column justify-center items-center`}>
-                                  <h1 class={`f-5-ns f1 ttu fw9 white-90 mv3`}>
+                                  <h1 class={`f1-ns f2 ttu fw9 white-90 mv3`}>
                                       Arturo A. King
                                   </h1>
-                                  <h2 class={`f-1-ns f2 fw4 white-80 mt0 lh-copy`}>
+                                  <h2 class={`f2-ns f3 fw7 white-90 mt0 lh-copy`}>
                                       B.E. in Computer Engineering
                                   </h2>
                               </header>
