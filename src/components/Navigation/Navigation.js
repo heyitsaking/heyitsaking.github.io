@@ -3,7 +3,7 @@ import './Navigation.css';
 
 const Navigation = ({style}) => {
     return (
-        <div className="nav-bar" style={style}>
+        <div className={`nav-bar`} style={style}>
             Test Text
         </div>
     )

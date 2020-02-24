@@ -1,27 +1,38 @@
 import React from 'react';
 import './InfoPanel.css';
 
-const InfoPanel = ({bgColor, cardTitle, cardType}) => {
+const InfoPanel = ({bgColor, cardTitle, cardType, onLinkClick}) => {
     return (
         <div className={`flex justify-center info-panel ${bgColor}`}>
             {cardType === 'profile' ?
-                <div className="mw9 w-100 center ph3-ns flex justify-center items-center">
-                    <div className="cf ph2-ns w-100 justify-between-l">
-                        <div className="fl w-100 w-third-l pa2">
-                            <div className="outline bg-white pv4">
-                                <h2>
+                <div className="mw9 w-100 center ph3-ns avenir">
+                    <div className="cf ph2-ns w-100 justify-between-l h-100 flex-ns items-center">
+                        <div className="fl w-100 w-third-ns pa2 mv2">
+                            <div className="white bg-white-20 ph3 pv1">
+                                <h2 className={`f3 fw9`}>
                                     About me...
                                 </h2>
-                                <p>
-
+                                <p className={`f3`}>
+                                    Aspiring developer with front-end experience using React and other Javascript
+                                    frameworks. Looking for opportunities to better myself in both front-end
+                                    and full-stack development.
                                 </p>
                             </div>
                         </div>
-                        <div className="fl w-100 w-third-l pa2">
-                            <div className="outline bg-white pv4"></div>
+                        <div className="fl di-ns dn w-100 h-75 w-third-ns pa2">
+                            <div className="bg-transparent h-100 flex justify-center">
+                                <img src={require('./profile.jpg')}
+                                     alt={`Arturo King`}
+                                     className={`profile-image`}
+                                     />
+                            </div>
                         </div>
-                        <div className="fl w-100 w-third-l pa2">
-                            <div className="outline bg-white pv4"></div>
+                        <div className="fl w-100 w-third-ns pa2">
+                            <div className="white bg-white-20 pa4">
+                                <p className={`f3 ws-normal`}>
+                                    Currently residing in Jacksonville, FL, with my wife Mary Grayson and our cat, <a onClick={onLinkClick} className={`underline hover-orange`}>Cardi</a> (a.k.a Nibbles).
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
