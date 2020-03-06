@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import InfoPanel from './components/InfoPanel/InfoPanel';
 import NibDisplay from './components/NibDisplay/NibDisplay';
+import ProfilePanel from "./components/ProfilePanel/ProfilePanel";
 
 class App extends React.Component {
     constructor() {
@@ -12,7 +13,7 @@ class App extends React.Component {
     }
 
     onClick = () => {
-        if(this.state.route == 'main') {
+        if(this.state.route === 'main') {
             this.setState({route: 'cardi'});
         } else {
             this.setState({route: 'main'});
@@ -40,8 +41,8 @@ class App extends React.Component {
                               </header>
                           </div>
                       </div>
-                      <InfoPanel bgColor={`bg-navy`} cardType={`profile`} onLinkClick={this.onClick}/>
-                      <InfoPanel bgColor={`bg-orange`} cardTitle={`Experience`} cardType={`list`}/>
+                      <ProfilePanel bgColor={`bg-navy`} onLinkClick={this.onClick}/>
+                      <InfoPanel bgColor={`bg-orange`} cardTitle={`Experience`}/>
                     </div>
                 </div>
             </div>

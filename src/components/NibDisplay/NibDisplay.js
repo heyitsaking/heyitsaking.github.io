@@ -4,7 +4,8 @@ const NibDisplay = ({onClick}) => {
     return (
         <div className={`dt center pv1-m pv1-ns ph0-ns ph2 bg-white mw8-l w-80 ba b--orange bw2`}>
             <div className={`flex flex-row-reverse h1 mv1 mr1-ns`}>
-                <a onClick={onClick}
+                <a href={`/#`}
+                   onClick={onClick}
                    className={`outline w1 h1 bg-transparent f5 flex items-center justify-center courier`}>X</a>
             </div>
             <div className={`pr1-ns`}>
