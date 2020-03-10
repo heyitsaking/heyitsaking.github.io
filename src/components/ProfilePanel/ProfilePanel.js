@@ -2,18 +2,13 @@ import React from 'react';
 
 const ProfilePanel = ({bgColor, onLinkClick}) => {
     return (
-        <div className={`flex justify-center info-panel ${bgColor} vh-50-ns`}>
+        <div className={`flex justify-center info-panel ${bgColor} vh-75-ns`}>
             <div className="flex-ns items-center justify-around-ns ph3-ns mv3 avenir">
                 <div className="dtc-ns tc w-33-ns h-100-ns">
-                    <div className="flex flex-column justify-center white bg-white-10 ph2-ns ph4 h-inherit">
-                        <h2 className={`f3 fw9`}>
-                            About me...
-                        </h2>
-                        <div className={`f3`}>
-                            Aspiring developer with front-end experience using React and other Javascript
-                            frameworks. Looking for opportunities to better myself in both front-end
-                            and full-stack development.
-                        </div>
+                    <div className="flex flex-column justify-center white bg-white-10 ph2-ns ph4 h-inherit f3">
+                        Aspiring developer with front-end experience using React and other Javascript
+                        frameworks. Looking for opportunities to better myself in both front-end
+                        and full-stack development.
                     </div>
                 </div>
                 <div className="dtc-ns tc dn pv4 w-33-ns mw5">
