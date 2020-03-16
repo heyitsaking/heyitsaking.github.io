@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
 import InfoPanel from './components/InfoPanel/InfoPanel';
 import NibDisplay from './components/NibDisplay/NibDisplay';
 import ProfilePanel from "./components/ProfilePanel/ProfilePanel";
