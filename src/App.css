@@ -38,7 +38,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
   position: relative;
 }
 
@@ -49,7 +49,7 @@ body {
 
 .cardiInfo {
   z-index: 2;
-  position: fixed;
+  position: absolute;
 }
 
 .resize {
