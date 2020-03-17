@@ -40,23 +40,36 @@ class App extends React.Component {
                             </header>
                         </div>
                     </div>
-                    <InfoPanel bgColor={`bg-navy`}>
-                        <div className="flex items-center w-75-l w-auto h-100-ns pv4-ns">
-                            <div className="white tr-l tc f2-ns f4 fw3 pr3 pc0-ns pv5-ns pv4 h-100">
+                    <InfoPanel bgColor={`bg-navy`} title={`About me...`}>
+                        <div className="w-75-l w-auto pt2-ns pb4-ns">
+                            <div className="white tr-l tc f2-ns f4 fw3 pr3 pc0-ns pv2-ns pv4">
                                 Aspiring developer with front-end experience using React and other Javascript
                                 frameworks. Looking for opportunities to better myself in both front-end
                                 and full-stack development. Currently residing in Jacksonville, FL, with my wife Mary Grayson
                                 and our cat, {cardiLink} (a.k.a Nibbles).
                             </div>
                         </div>
-                        <div className="flex-l items-center tc dn h-100 pv4">
+                        <div className="db-l dn h-75 pv2">
                             <img src={require('./profile.jpg')}
                                 alt={`Arturo A. King`}
                                 className={`mw5`}/>
                         </div>
                     </InfoPanel>
-                    <InfoPanel bgColor={`bg-orange`}>
-
+                    <InfoPanel bgColor={`bg-orange`} title={`Experience`}>
+                        <div class="center ph3-ns">
+                            <div class="cf ph2-ns">
+                                <div class="fl w-100 w-50-ns pa2">
+                                    <div class="outline bg-white-10 pv4">
+                                        Test
+                                    </div>
+                                </div>
+                                <div class="fl w-100 w-50-ns pa2">
+                                    <div class="outline bg-white-10 pv4">
+                                        Test
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </InfoPanel>
                 </div>
             </div>

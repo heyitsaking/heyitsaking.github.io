@@ -13,7 +13,7 @@ const NibDisplay = ({onClick}) => {
                     <img src={require(`./nib.jpg`)} alt="A bright blue sky"
                          className={`w-100 mw7 w5-ns`}/>
                 </div>
-                <div className={`db dtc-ns v-mid ph2 pr2-ns pl1-ns avenir f4-l f5-m`}>
+                <div className={`db dtc-ns v-mid ph2 pr2-ns pl1-ns f4-l f5-m`}>
                     <div>
                         This is Cardi. We initially fostered her when she was two weeks old, and then
                         decided to keep her when she became adoptable, but we mostly call her Nibbles.
