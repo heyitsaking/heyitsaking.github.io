@@ -10,7 +10,7 @@ const NibDisplay = ({onClick}) => {
             </div>
             <div className={`pr1-ns`}>
                 <div className={`db dtc-ns v-mid-ns pl1-ns pa1`}>
-                    <img src={require(`./nib.jpg`)} alt="A bright blue sky"
+                    <img src={require(`../../images/nib.jpg`)} alt="A bright blue sky"
                          className={`w-100 mw7 w5-ns`}/>
                 </div>
                 <div className={`db dtc-ns v-mid ph2 pr2-ns pl1-ns f4-l f5-m`}>

@@ -1,0 +1,41 @@
+{
+    "experience": [
+        {
+            "proficiency": 5,
+            "skills": [
+                "Javascript",
+                "React",
+                "VHDL",
+                "Postman"
+            ]
+        },
+        {
+            "proficiency": 4,
+            "skills": [
+                "NodeJS",
+                "ExpressJS",
+                "Verilog",
+                "Python",
+                "Vivado"
+            ]
+        },
+        {  
+            "proficiency": 3,
+            "skills": [
+                "C/C++",
+                "DataGrip",
+                "VS Code",
+                "WebStorm",
+                "IntelliJ",
+                "Redux"
+            ]
+        },
+        {
+            "proficiency": 2,
+            "skills": [
+                "Java",
+                "SQL"
+            ]
+        }
+    ]
+}
