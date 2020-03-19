@@ -71,7 +71,7 @@ class App extends React.Component {
                         </div>
                     </InfoPanel>
                 </div>
-                <footer className={`code bt bw2 b--dark-blue`} style={{'background-image':'linear-gradient(to right, #F4F4F4, rgba(204, 204, 204, .7))'}}>
+                <footer className={`code bt bw2 b--dark-blue`} style={{'backgroundImage':'linear-gradient(to right, #F4F4F4, rgba(204, 204, 204, .7))'}}>
                     <div className={`flex-ns flex-row ph5-l w-100 ph4-m pt3 f5`}>
                         <img src={require(`./images/crown.png`)}
                             alt={`Crown Icon`}
