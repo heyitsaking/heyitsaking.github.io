@@ -7,7 +7,7 @@ import TwoStar from '../../images/2star.png';
 const SkillPanel = ({ level, skills }) => {
 
     return (
-        <div className="fl mw5-ns w-50 h-100-ns h-50 pa2">
+        <div className="grow fl mw5-ns w-50 h-100-ns h-50 pa2">
             <div className="flex flex-column h-100 pv3 ph3" style={{'backgroundColor':'rgba(246,128,38,0.5)'}}>
                 { // Find more efficient way to dynamically get images
                 (level === 5 &&

@@ -37,7 +37,7 @@ class App extends React.Component {
                                     Arturo A. King
                                 </h1>
                                 <h2 className={`f2-ns f3 fw7 white-90 mt0 lh-copy`}>
-                                    B.E. in Computer Engineering
+                                    B.S. in Computer Engineering
                                 </h2>
                             </header>
                         </div>
@@ -61,7 +61,7 @@ class App extends React.Component {
                     </InfoPanel>
                     <InfoPanel title={`Experience`} bg={`orange`}>
                         <div className="flex justify-center w-100 ph3-ns">
-                            <div className="flex-ns justify-around-ns fw3 cf w-100-ns mw7 ph2-ns ph2">
+                            <div className="pb2 flex-ns justify-around-ns fw3 cf w-100-ns mw7 ph2-ns ph2">
                                 {data.experience.map((level, i) => {
                                     return (
                                         <SkillPanel level={level.proficiency} skills={level.skills} key={i}/>
@@ -71,24 +71,24 @@ class App extends React.Component {
                         </div>
                     </InfoPanel>
                 </div>
-                <footer className={`code`} style={{'background-image':'linear-gradient(to right, #F4F4F4, rgba(204, 204, 204, .7))'}}>
-                    <div className={`flex flex-row ph5 pt3 f5`}>
+                <footer className={`code bt bw2 b--dark-blue`} style={{'background-image':'linear-gradient(to right, #F4F4F4, rgba(204, 204, 204, .7))'}}>
+                    <div className={`flex-ns flex-row ph5-l w-100 ph4-m pt3 f5`}>
                         <img src={require(`./images/crown.png`)}
                             alt={`Crown Icon`}
-                            className={`mw4`}/>
-                        <div className={`flex items-center`}>
+                            className={`mw4-ns mw3 h4-ns h3 pl0-ns pl4`}/>
+                        <div className={`flex-ns w-50-ns w-100 items-center`}>
                             <ul>
                                 Contact Information:
-                                <li className={`ml5 pl3`}>
+                                <li className={`ml5-l pl3-l`}>
                                     Email: arturo.a.king.p@gmail.com
                                 </li>
-                                <li className={`ml5 pl3`}>
+                                <li className={`ml5-l pl3-l`}>
                                     Mobile Phone: (404) 984-4477
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className={`w-100 tc f4 pb2`}>UI made with React</div>
+                    <div className={`w-100 tc f4-ns f5 fw1-ns fw9 pb2`}>UI made with React</div>
                 </footer>
             </div>
         );
