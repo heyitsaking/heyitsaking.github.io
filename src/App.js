@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import InfoPanel from './components/InfoPanel/InfoPanel';
-import NibDisplay from './components/NibDisplay/NibDisplay';
 import Modal from 'react-modal';
 import data from './data/experience.json';
 import SkillPanel from './components/SkillPanel/SkillPanel';
@@ -26,8 +25,25 @@ class App extends React.Component {
 
         return (
             <div>
-                <Modal isOpen={showModal} className={'h-100 w-100 flex items-center justify-center'}>
-                    <NibDisplay onClick={() => {this.handleModal()}}/>
+                <Modal isOpen={showModal} 
+                        onRequestClose={this.handleModal}
+                        className={`center frame cover bg-center vh-75-ns vh-50 w-50-ns w-75 dt br2`}>
+                    <div className={`hide-child`}>
+                        <div className={`w-100 h-100 child bg-black-60 br2`}>
+                            <button onClick={this.handleModal} className={`bg-transparent ml2 mt2 white ba b--near-white`}>Close</button>
+                            <div className={`flex justify-center flex-column v-mid w-100 vh-75-ns vh-50 white tc-ns ph4 f3-ns`}>
+                                This is Cardi. We initially fostered her when she was two weeks
+                                old, and then decided to keep her when she became adoptable, 
+                                but we mostly call her Nibbles.
+                                <div className={`white pt3`}>
+                                    Follow her adventures on <a
+                                    href={`https://www.instagram.com/cardic_calico/?igshid=h7riz1jen7v6`}
+                                    target={`_blank`}
+                                    className={`white`}>Instagram</a>! (@cardic_calico)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </Modal>
                 <div>
                     <div className={`jumbotron`}>

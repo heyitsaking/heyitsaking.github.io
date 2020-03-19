@@ -4,6 +4,16 @@ body {
   z-index: -1;
 }
 
+.frame {
+  background: url(./images/nib.jpg);
+}
+
+.ReactModal__Overlay--after-open {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
 .jumbotron {
   min-height: 100vh;
   background-color: transparent !important;
