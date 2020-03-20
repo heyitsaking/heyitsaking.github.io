@@ -27,7 +27,7 @@ class App extends React.Component {
             <div>
                 <Modal isOpen={showModal} 
                         onRequestClose={this.handleModal}
-                        className={`center frame cover bg-center vh-75-ns vh-50 w-50-ns w-75 dt br2`}>
+                        className={`center frame cover bg-center vh-75-ns vh-50 w-50-l w-75 dt br2`}>
                     <div className={`hide-child`}>
                         <div className={`w-100 h-100 child bg-black-60 br2`}>
                             <button onClick={this.handleModal} className={`bg-transparent ml2 mt2 white ba b--near-white`}>Close</button>

@@ -8,6 +8,12 @@ body {
   background: url(./images/nib.jpg);
 }
 
+@media only screen and (max-width: 600px) {
+  .frame {
+    background: url(./images/nibSlim.jpg);
+  }
+}
+
 .ReactModal__Overlay--after-open {
   display: flex;
   justify-items: center;
